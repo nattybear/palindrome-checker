@@ -26,6 +26,8 @@ library:
   source-dirs: src
   dependencies:
   - text
+  default-extensions:
+  - OverloadedStrings
 
 executables:
   palindrome-checker-exe:
@@ -38,6 +40,8 @@ executables:
     dependencies:
     - palindrome-checker
     - text
+    default-extensions:
+    - OverloadedStrings
 
 tests:
   palindrome-checker-test:
