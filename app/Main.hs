@@ -2,7 +2,7 @@ module Main where
 
 import Data.Text    as T
 import Data.Text.IO as TIO
-import Lib
+import Palindrome
 
 main :: IO ()
 main = do

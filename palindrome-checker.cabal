@@ -9,9 +9,9 @@ version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/palindrome-checker#readme>
 homepage:       https://github.com/githubuser/palindrome-checker#readme
 bug-reports:    https://github.com/githubuser/palindrome-checker/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2022 Author name here
+author:         Vincent
+maintainer:     vpark45@gmail.com
+copyright:      2022 Vincent
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Palindrome
   other-modules:
       Paths_palindrome_checker
   hs-source-dirs:
